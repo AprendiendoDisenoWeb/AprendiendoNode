@@ -4,3 +4,7 @@ En vez de ejecutar las cosas en el navegador, como estamos acostumbrados, las ej
 Como si fuera un programa como otro cualquiera.
 Para ejecutarlo entramos en la consola, nos movemos a la carpeta donde esté el archivo que queremos ejecutar
 y ponemos node nombreArchivo.js
+
+Cuando creamos una aplicación más grande, la dividimos en partes. En node, a estas partes se les llama "módulos"
+
+Además, node nos trae módulos preconstruidos, que nos servirán para muchas cosas, como para crear un servidor.
