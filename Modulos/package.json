@@ -1,0 +1,22 @@
+{
+  "name": "servidor",
+  "version": "0.0.1",
+  "description": "Apuntes de un curso de node js",
+  "main": "servidor.js",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "curso",
+    "español",
+    "javascript",
+    "servidor",
+    "nodejs"
+  ],
+  "author": "Alex",
+  "license": "ISC"
+}

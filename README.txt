@@ -8,3 +8,7 @@ y ponemos node nombreArchivo.js
 Cuando creamos una aplicación más grande, la dividimos en partes. En node, a estas partes se les llama "módulos"
 
 Además, node nos trae módulos preconstruidos, que nos servirán para muchas cosas, como para crear un servidor.
+
+Npm (node package manager) nos permite administrar módulos nuevos para nuestro proyecto.
+Funciona como apt, cuando queremos instalar un nuevo módulo ponemos: npm install <nombre del módulo>
+Con npm init podemos precargar cierta información en el servidor para que todo vaya más rápido
