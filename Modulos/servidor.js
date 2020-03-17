@@ -1,4 +1,4 @@
-//Vamos a añadir el módulo que nos permitirá crear un servidor http
+/*Vamos a añadir el módulo que nos permitirá crear un servidor http
 const http = require('http');
 const colors = require('colors'); //cargamos también el módulo que nos hemos descargado mediante npm
 
@@ -17,3 +17,28 @@ http.createServer(handleServer).listen(3000, function()
 {
     console.log("Servidor escuchando en el puerto 3000".blue); //Le damos un color gracias al módulo colors que nos hemos descargado con npm
 }); //EL método listen nos permite indicar el puerto por el que queremos escuchar
+*/
+
+//Vamos a crear nuestro servidor con el módulo express
+
+const express = require('express');
+const colors = require('colors'); 
+
+const server = express();
+
+server.get('/', function(req, res) //Con el server.get definimos qué aparecerá en función del directorio que se esté buscando
+{
+    res.send("<h1>Bienvenido a la página principal del mejor servidor del mundo</h1>");
+});
+
+server.get('/private', function(req, res) //Con el server.get definimos qué aparecerá en función del directorio que se esté buscando
+{
+    res.send("<h1>Aquí no se puede estar</h1>");
+});
+
+server.listen(3000, function()
+{
+    console.log("El servidor está ejecutándose en el puerto 3000".blue);
+});
+
+//Estas pocas líneas de código hacen lo mismo que todas las que tenemos arriba comentadas.

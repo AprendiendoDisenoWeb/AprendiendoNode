@@ -11,4 +11,7 @@ Además, node nos trae módulos preconstruidos, que nos servirán para muchas co
 
 Npm (node package manager) nos permite administrar módulos nuevos para nuestro proyecto.
 Funciona como apt, cuando queremos instalar un nuevo módulo ponemos: npm install <nombre del módulo>
-Con npm init podemos precargar cierta información en el servidor para que todo vaya más rápido
+Con npm init podemos precargar cierta información en el servidor para que todo vaya más rápido.
+
+Hay un framework de nodejs llamado express para que podamos crear nuestros servidores sin escribir todo desdde 0.
+npm install express --save (el --save no siempre es necesario)
